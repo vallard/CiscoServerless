@@ -63,7 +63,6 @@
   (do 
     (let [k (keys cams)]
       (for [a k]
-    
         (let [camera (get cams a)]
           [:div  { :class "well" }
             [:h3 (get camera :name)]

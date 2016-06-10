@@ -1,6 +1,20 @@
 # CiscoServerless
 Exploring Serverless APIs
 
+## Parse example
+
+```
+cd
+parse-server-example
+npm start
+```
+
+Now launch the dashboard: 
+```
+parse-dashboard --appId myAppId --masterKey Master --serverURL "http://localhost:1337/parse"
+```
+
+
 ## MASHAPE example
 
 This example uses an API found on Mashape that contains photos of 
